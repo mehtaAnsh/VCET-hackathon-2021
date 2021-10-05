@@ -61,6 +61,8 @@ Source code for the solution made at VCET Hackathon 2021. Came as the runner ups
 - PositionStack (to retrieve coordinates from Keywords)
 - Twilio (to broadcast WhatsApp and SMS messages)
 
+## Team Members:
+Aniket Shah, Shlok Shah, and Himanshu Bhalala.
 ```
 Give it a star if you find this helpful.
 ```
