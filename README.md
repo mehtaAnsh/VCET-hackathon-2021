@@ -1,4 +1,4 @@
-# VCET Hackathon 2021 Source code
+# VCET Hackathon 2021
 Source code for the solution made at VCET Hackathon 2021. Came as the runner ups out of over 32 teams.
 
 ## Directory structure:
@@ -60,6 +60,9 @@ Source code for the solution made at VCET Hackathon 2021. Came as the runner ups
 - WeatherAPI (to retrieve climatic attributes for cities like temperature, pressure, etc.)
 - PositionStack (to retrieve coordinates from Keywords)
 - Twilio (to broadcast WhatsApp and SMS messages)
+
+## Team Members:
+Aniket Shah, Shlok Shah, and Himanshu Bhalala.
 
 ```
 Give it a star if you find this helpful.
