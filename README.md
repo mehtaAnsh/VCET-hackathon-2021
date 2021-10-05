@@ -1,4 +1,4 @@
-# VCET-hackathon-2021
+# VCET Hackathon 2021 Source code
 Source code for the solution made at VCET Hackathon 2021. Came as the runner ups out of over 32 teams.
 
 ## Directory structure:
