@@ -1,37 +1,66 @@
-## Welcome to GitHub Pages
+# VCET-hackathon-2021
+Source code for the solution made at VCET Hackathon 2021. Came as the runner ups out of over 32 teams.
 
-You can use the [editor on GitHub](https://github.com/mehtaAnsh/VCET-hackathon-2021/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+## Directory structure:
+```
+|
+|--admin
+|--backend
+|--IoT
+|--image processing model
+|--rainfall predictror
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Admin:
+- An all-in-one system that provides insights such as Temperature, Precipitation, etc. for the metropolitan cities of India.
+- Can issue alerts for citizens, where if they fall in the certain radius, they are notified on SMS and WhatsApp messages
+- Can present detailed Satellite images for the affected areas where they can be downloaded for further detailed image-processing
 
-### Jekyll Themes
+### Backend:
+- Contains the entire backend code. 
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mehtaAnsh/VCET-hackathon-2021/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### IoT:
+- An IoT-based flood prevention system that checks the water levels of the dam. 
+- If they exceed beyond the threshold, the administration is notified, and the system can take actions by itself on extreme circumstances.
 
-### Support or Contact
+### Image predictor model:
+- Compares the before and after affected model.
+- Gives the result in the form of white highlighted pixels showing the affected area.
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### Rainfall Predictor:
+- Analyses the rainfall data and predicts if the average rainfall per year can cause flooding or not.
+- Provides a yet other data source to detect the early occurrence of floods. 
+
+## Techonolgies used:
+
+### IoT-based Dam flooding prevention system:
+- Arduino IDE (ESP8266), 
+- ThingSpeak by MathWorks (IoT-cloud detection system)
+
+### Rainfall Predictor:
+- Python
+- Pandas, Scikit-learn
+
+### Admin Frontend:
+- React, Bootstrap
+
+### Backend:
+- Node, Express.js, MongoDB
+
+### Image Processing Model:
+- Python
+- OpenCV (Computer Vision)
+
+### Hosting:
+- Web app and Backend: Heroku
+- Database: MongoDB Atlas
+
+### Miscellaneous APIs:
+- MapBox (to retrieve high-res satellite images)
+- WeatherAPI (to retrieve climatic attributes for cities like temperature, pressure, etc.)
+- PositionStack (to retrieve coordinates from Keywords)
+- Twilio (to broadcast WhatsApp and SMS messages)
+
+```
+Give it a star if you find this helpful.
+```
